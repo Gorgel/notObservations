@@ -1,0 +1,74 @@
+$ README, version 2.4 16/04/2014 TAU $
+
+This  is  the NOTFORM  package  for  preparing  application forms  for
+observing  time  at the  NOT  in period  50.   This  set contains  the
+following files:
+
+README50             This file
+notsty50.sty	     NOTFORM LaTeX style file
+nottempl50.tex       An empty application form
+
+To  install the  NOTFORM  package, just  de-compress  (with gunzip  or
+uncompress)  and un-tar  the  package  file.  You  can  then edit  the
+nottempl50.tex file to prepare your own proposal(s).
+
+When preparing a proposal, use the file nottempl50.tex as template and
+take care  to fill in the  fields of this proposal  form as indicated,
+following the instructions  and advice provided in the  header of each
+section. Run LaTex on your completed form and verify the result before
+submitting to check  that it runs correctly and  does not overfill any
+of the  boxes, and that it  produces a total  of no more than  six (6)
+printed pages.
+
+Be sure  to always use the  correct version of the  not-style file for
+the period in question. This template is only valid for period 50.
+
+Never change the format of  the template or style file. Proposals that
+do not comply with the correct version of the style and template files
+will be rejected.
+
+Name the file PIname.tex (e.g. johanson.tex) and any figure file(s) as
+PInameA.ps (and PInameB.ps). After  verifying that the proposal can be
+properly processed, submit the  file(s) as (separate) attached file(s)
+by e-mail to the address:
+                                                                        
+                          proposal@not.iac.es
+
+with the word  ``Proposal'' in the 'Subject' field and  as text in the
+body of  the message.   The latter is  important when you  use certain
+mailers as the proposal might otherwise not be parsed correctly by our
+automatic procedure.
+
+Do  not compress the  files or  combine them  in a  tar file.   Do not
+submit the style file.
+
+Any questions regarding the proposal procedure may be submitted to the
+same e-mail address, giving ``Question'' as the 'Subject'.
+
+If  you  submit   more  than  one  proposal,  please   name  the  file
+PIname1.tex,  PIname2.tex,  etc., and  any  figure files  accordingly.
+Only one proposal should be submitted at the time.
+
+The Scientific Justification of  the proposal should be self-contained
+and not refer to previous proposals.
+
+Describe  first  the  scientific  background  and main  goals  of  the
+proposal.   As OPC members  cannot be  experts in  every field,  it is
+CRUCIAL that you outline the general scientific context CLEARLY and in
+a  manner that  can be  understood also  by a  non-specialist  in your
+field.
+
+Then argue -  equally clearly!  - how your  proposed observing project
+will contribute  significantly to  advancing our understanding  of the
+issue. Key references to the literature should be given.
+
+Finally, describe how the  data reduction and scientific analysis will
+be done, and document that the team possesses the required expertise.
+
+All text and figures should fit on the following two pages (page 2 and
+page 3), but text may spill over on page 3. All figures and references
+should be placed on page 3.
+
+For more information on the Nordic Optical Telescope see:
+
+	                 http://www.not.iac.es/
