@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.21)  1 MAY 2014 16:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.21)  4 MAY 2014 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,11 +346,6 @@ Underfull \vbox (badness 10000) detected at line 210
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-
- []
-
-
 Underfull \vbox (badness 10000) detected at line 223
  []
 
@@ -375,100 +370,87 @@ Underfull \vbox (badness 10000) detected at line 310
  []
 
 [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 320.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 320.
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--375
+Underfull \hbox (badness 10000) in paragraph at lines 387--407
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 375
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 409
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 414.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 414.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--576
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 576
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 387--403
-
+Underfull \vbox (badness 10000) detected at line 623
  []
 
 
-Underfull \vbox (badness 10000) detected at line 403
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--570
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 570
+Underfull \vbox (badness 10000) detected at line 647
  []
 
 [4]
-Underfull \vbox (badness 10000) detected at line 617
+Underfull \vbox (badness 10000) detected at line 670
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--641
-
+Underfull \vbox (badness 10000) detected at line 684
  []
 
-
-Underfull \vbox (badness 10000) detected at line 641
- []
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 687.
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 652--664
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 664
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--678
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 678
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 681.
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 681.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 687.
  (./notprop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 681.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 681.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 687.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 687.
 Package rerunfilecheck Info: File `notprop.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 681.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 687.
  ) 
 Here is how much of TeX's memory you used:
- 5962 strings out of 493304
- 86070 string characters out of 6139871
- 182420 words of memory out of 5000000
- 9368 multiletter control sequences out of 15000+600000
- 9191 words of font info for 32 fonts, out of 8000000 for 9000
+ 5963 strings out of 493304
+ 86088 string characters out of 6139871
+ 183420 words of memory out of 5000000
+ 9369 multiletter control sequences out of 15000+600000
+ 9537 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 31i,6n,23p,597b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,6n,23p,1165b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti12.pfb>
-Output written on notprop.pdf (6 pages, 125793 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+
+Output written on notprop.pdf (5 pages, 151264 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

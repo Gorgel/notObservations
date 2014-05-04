@@ -101,9 +101,9 @@
 % Please fill in the appropriate { } below:
 %
 \piname{}               % name of PI
-\piinst{}               % PI institute
+\piinst{Stockholm University}               % PI institute
 \picoun{SE}               % PI country (ISO code: DK,FI,IS,NO,SE,..) 
-\piaddr{}               % PI postal address
+\piaddr{106 91 Stockholm}               % PI postal address
 \piteln{}               % PI telephone number
 \pifaxn{}               % PI fax number
 \pimail{}               % PI email address
@@ -123,7 +123,7 @@
 %
 %        {Name1, Institute1}  {Name2, Institute2}
 %
-\coinvest{ }{ }  % {Name1, Institute1}   {Name2, Institute2} 
+\coinvest{ }{106 91 Stockholm }  % {Name1, Institute1}   {Name2, Institute2} 
 \coinvest{ }{ }  % {Name3, Institute3}   etc
 \coinvest{ }{ }
 \coinvest{ }{ }
@@ -183,11 +183,11 @@
 %
 \nrunid{A }      % Put your run id (A, B, C, ...) here
 \ninstr{ALFOSC }      % Put instrument name here
-\ntimer{XXX H }      % Put requested time, in numbers, with unit (N or H), e.g 5 N
+\ntimer{7 H }      % Put requested time, in numbers, with unit (N or H), e.g 5 N
 \nmonth{May }      % Put preferred month(s) here
 \nmoonp{B }      % Put requested moon phase here: D, G or N
-\nsemax{ }      % Put maximum allowed seeing here: (0.7,1.0,1.5,N)
-\nskyco{ }      % Put required photometric condition here
+\nsemax{1.5 }      % Put maximum allowed seeing here: (0.7,1.0,1.5,N)
+\nskyco{P }      % Put required photometric condition here
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{nightspage}
@@ -201,11 +201,11 @@
 %
 % Please type in the { } field below:
 % 
-\numalr{}
+\numalr{0}
 %
 % Number of nights needed to complete project (excluding those requested).
 %
-\numrem{}
+\numrem{1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{numnightspage}
 
@@ -218,7 +218,7 @@
 % All projects will be considered for execution in service/queue mode. In
 % case your project can not be done in service/queue mode, please give a
 % justification in the { } field below:
-\service{ }
+\service{Yes }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{servicepage}
 
@@ -314,10 +314,10 @@ Another virtue of the selected target is that if photometric images of good enou
 %%              !!!!!!!!!!!!! PAGE 3 !!!!!!!!!!!!!
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage        % Page 3 
-\putnumberLarge
+%\newpage        % Page 3 
+%\putnumberLarge
 
-\begin{scienpagec}[][]{}
+%\begin{scienpagec}[][]{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%              SCIENTIFIC JUSTIFICATION (CONTINUED)                       %%
 %%                                                                         %%
@@ -326,7 +326,7 @@ Another virtue of the selected target is that if photometric images of good enou
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
 % Please type the rest of your text into the { } field below:
-\scijustc{ }
+%\scijustc{ }
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                FIGURES:                                 %%
@@ -372,7 +372,7 @@ Another virtue of the selected target is that if photometric images of good enou
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{scienpagec}
+%\end{scienpagec}
 
 
 
@@ -398,7 +398,13 @@ Another virtue of the selected target is that if photometric images of good enou
 %  resolve the spectroscopic features you want to study).
 %
 % Please type in the { } field below:
-\techjust{ }
+\techjust{Because the target NGC 5963 is of low surface brightness nature, we aim for fairly deep spectra (1.5-2h) in order to obtain reducible data from the outer skirts of the galaxy. We used spectral data from the \emph{Sloand Digital Sky Survey} (SDSS) in order to calculate the flux of the H$\alpha$ line which we will also look at. The flux was calculated from the equivalent width and continuum of the line and then converted into magnitude using Vega as a reference star. A somewhat average of the known flux from Vega at similar wavelengths as the 6565\AA  we are interested in was used in the conversion and we get a magnitude for our line of interest as $m_{H\alpha} = 19.3$. Given an integration time of 2h we would achieve a \emph{Signal to Noise ratio} $(S/N)$ of $\approx 8.5$ according to the \emph{Nordic Optical Telescope}'s own calculator using the $\#8$ grism. In case that seeing is bad due to high air mass we would instead use the $\#7$ grism in order to boost our S/N very slightly, sacrificing a bit of a resolution. We assume that we may need up to 30 min of overhead time and thus need 2.5h in total for the spectroscopy. \\
+
+\noindent Although dark conditions would have been optimal for our photometric observations due to the target's faint surface brightness, we can make due with a bright full moon as well. Just as with the spectroscopy we aim for very deep imaging in order to reach the very faintest outskirts of the galaxy an enable a closer study of the outer morphology. Using the SDSS photometric data of NGC 5963 and calculating the surface brightness for different sizes of apertures we get a central surface brightness of $Sb_c = 20.35$ and on average $Sb_{avg} = 22.1$. Again using the NOT exposure time calculator tool we require an exposure time of at least 20 min, which would provide us with a $S/N> 3$ in all bands \(UBVRI\) without risk of saturation. Given 20 minutes on average for each of the 5 bands and including 10 min of overhead we would require a total time of 2.5h for our photometry observations. \\
+
+\noindent As we only have 1 target but 5 bands + spectroscopy, the total time needed would be 5h including overhead for our observations. Our target NGC 5963 is possess the fortunate position in the sky during the designated days for observations that it is visible during the entire nights. Thus, we do not demand 5 consecutive hours of observations but are capable of doing splitting it up into several segments. \\
+
+\noindent Should opportunity present itself for more time at the telescope we would use this time for photometric and spectrophotometric calibrations. If time would allow it we would also try to obtain even deeper photometry.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{justificpage}
 
@@ -453,7 +459,7 @@ Another virtue of the selected target is that if photometric images of good enou
 %
 %\NOTconfig{}{ALFOSC}{Spectro-long-slit}{give grism number(s)}
 \NOTconfig{}{ALFOSC}{Spectro-long-slit}{1.0, 1.3}
-\NOTconfig{}{ALFOSC}{Spectro-long-slit}{Grism\#8}
+\NOTconfig{}{ALFOSC}{Spectro-long-slit}{Grism \#7, \#8}
 %\NOTconfig{}{ALFOSC}{Spectro-long-slit}{provide 2nd-order blocking filter No.}
 %
 %\NOTconfig{}{ALFOSC}{Multi-Object-Spectro}{provide HERE the number of masks}
@@ -612,7 +618,7 @@ Another virtue of the selected target is that if photometric images of good enou
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Please type any Remarks on the target list in the {   } field below: 
 %%
-\remark{ }
+\remark{Target coordinates refer to EquJ2000.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{objlistpage}
 
@@ -636,7 +642,7 @@ Another virtue of the selected target is that if photometric images of good enou
 % 
 % Please type your description in the { } field below:
 %
-\backup{ }
+\backup{Fika. }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{qualitypage}
 
@@ -659,7 +665,7 @@ Another virtue of the selected target is that if photometric images of good enou
 %
 %%  Please type this information in the { } field below:
 %% 
-\prevobs{ }
+\prevobs{No former observations have been made at the NOT by the PI nor Co-investigator.  }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{prevobspage}
 
@@ -673,7 +679,7 @@ Another virtue of the selected target is that if photometric images of good enou
 %
 %%  Please type in the { } field below:
 %% 
-\addinfo{ }
+\addinfo{This proposal is part of the Observational Technique II course at Stockholm University.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{extrapage}
 
