@@ -1,0 +1,15 @@
+Slit orientation?
+
+
+NGC_3495:
+equipment:
+grism = 8
+slit = orientation?
+exposure time = 15 -> S/N = 165.92 -> photon count = 111262.53
+total time on telescope?
+
+NGC 5900
+exposure time = 15 -> S/N = 104.42 -> photon count = 44376.09
+
+
+NGC 5963
